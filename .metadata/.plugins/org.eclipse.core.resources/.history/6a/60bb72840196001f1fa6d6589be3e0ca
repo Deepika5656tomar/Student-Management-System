@@ -1,0 +1,5 @@
+package com.studentmgmt;
+
+public class StudentDaoIntrf {
+
+}

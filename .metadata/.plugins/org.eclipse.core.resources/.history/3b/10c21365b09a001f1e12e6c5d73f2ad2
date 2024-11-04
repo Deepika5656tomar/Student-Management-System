@@ -1,0 +1,10 @@
+package com.studentmgmt;
+import java.util.Date;
+
+public interface StudentDaoIntrf {
+	public void createStudent(Student stu);
+	public void showAllStudents();
+	public void showStudentsBasedOnId(int id);
+	public void updateStudent(int id, String firstName, String LastName, String email,Date DOB, int PhoneNo, int marks, String gender );
+	public void deleteStudent(int id);
+}
